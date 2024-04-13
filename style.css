@@ -263,6 +263,25 @@ body {
         margin: 50px auto;
     }
 
+    bottom-container {
+        display: grid;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .fifth-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 50px;
+    }
 
 }
 
