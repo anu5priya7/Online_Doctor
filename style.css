@@ -283,6 +283,18 @@ body {
         padding: 50px;
     }
 
+    /* .left-section {
+        text-align: left;
+    } */
+
+    .right-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+
 }
 
 
