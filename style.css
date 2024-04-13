@@ -185,48 +185,6 @@ body {
         padding: 0px 50px;
     }
 
-    body {
-        overflow-x: hidden;
-        font-family: Arial, sans-serif;
-        margin: 0px 60px;
-        padding: 0px 50px;
-    }
-
-    :host,
-    :root {
-        --fa-style-family-classic: "Font Awesome 6 Free";
-        --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
-    }
-
-    :host,
-    :root {
-        --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
-    }
-
-    :host,
-    :root {
-        --fa-style-family-brands: "Font Awesome 6 Brands";
-        --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
-    }
-
-    :root {
-        --swiper-navigation-size: 44px;
-    }
-
-    :root {
-        --swiper-theme-color: #007aff;
-    }
-
-    html {
-        line-height: 1.15;
-        -webkit-text-size-adjust: 100%;
-    }
-
-    html {
-        line-height: 1.15;
-        text-size-adjust: 100%;
-    }
-
     .service-container {
         display: flex;
         justify-content: center;
@@ -235,10 +193,7 @@ body {
         max-width: 900px;
     }
 
-    * {
-        padding: 0;
-        margin: 0;
-    }
+
 
     user agent stylesheet div {
         display: block;
@@ -257,35 +212,45 @@ body {
         margin: 0px 60px;
         padding: 0px 50px;
     }
+}
 
-    :host,
-    :root {
-        --fa-style-family-classic: "Font Awesome 6 Free";
-        --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+
+
+@media (max-width: 345px) {
+    body {
+        overflow-x: hidden;
+        flex: column;
+        font-family: Arial, sans-serif;
+        margin: 0px 30px;
+        padding: 0px 30px;
     }
 
-    :host,
-    :root {
-        --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+    .service-container {
+        display: column;
+        justify-content: center;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        max-width: 500px;
     }
 
-    :host,
-    :root {
-        --fa-style-family-brands: "Font Awesome 6 Brands";
-        --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+
+
+    user agent stylesheet div {
+        display: block;
+        unicode-bidi: isolate;
     }
 
-    :root {
-        --swiper-navigation-size: 44px;
+    .service-section {
+        margin: 50px;
+        text-align: center;
+        align-items: center;
     }
 
-    :root {
-        --swiper-theme-color: #007aff;
-    }
-
-    html {
-        line-height: 1.15;
-        -webkit-text-size-adjust: 100%;
+    body {
+        overflow-x: hidden;
+        font-family: Arial, sans-serif;
+        margin: 0px 60px;
+        padding: 0px 50px;
     }
 }
 
